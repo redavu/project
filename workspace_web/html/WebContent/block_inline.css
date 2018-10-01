@@ -1,0 +1,10 @@
+.inline{
+	display:list-item;
+}
+
+nav {background:pink;}
+
+.inlineBlock{
+	display:inline-table;
+	margin:20px;
+}

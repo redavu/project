@@ -1,0 +1,197 @@
+ul {
+      color : blue;
+/*    list-style-type:lower-latin; //square;
+      list-style-position:inside; */
+      list-style: lower-latin inside;
+}
+#container {
+      background:#ff6a00;
+      width:400px;
+      height:200px;
+      margin:0 auto;
+}
+body {
+      font-family:"돋움";
+      color:darkgreen !important;
+}
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic&subset=korean');
+ul {
+      font-family:'Nannum Gothic';
+}
+@font-face{
+      font-family:'THELeft';
+      src: local('THELeft'),
+            url('THELeft.woff') format('woff'),
+            url('THELeft.tff') format('truetype')
+}
+#theleft{
+      font-family:'THELeft';
+}
+#em3{
+      font-size:3em;
+}
+#em1{
+      font-size:1em;
+}
+#decoration{
+      text-decoration:overline;
+}
+#fullwidth{
+      text-transform:full-width;
+}
+0
+#shadow3{
+      color:#000;
+      text-shadow: 0 0 4px #ccc, 0 -5px 4px #ff3, 2px -10px 6px #fd3, -2px -15px 11px #f80, 2px -19px 18px #f20;
+}
+/* #shadow3{
+      color:#fff;
+      text-shdow:7px -7px 5px #000;
+} */
+.content{
+      border:1px solid #ccc;
+      width:300px;
+      white-space:nowrap;/* 줄 바꿈 안함  */
+      overflow:hidden;
+      text-overflow:ellipsis; 
+}
+.content:hover{
+      overflow:visible;
+}
+
+
+.grad{
+	width:200px; height:200px;
+	margin:auto;
+	background: blue;
+	background: -webkit-linear-gradient(left top, blue,white);
+	background: -moz-linear-gradient(right bottom, blue, white);
+	background: -o-linear-gradient(right bottom, blue, white);
+	background: linear-gradient(to right bottom, blue, white);
+}
+
+.grad{
+	width:200px; height:200px;
+	margin:auto;
+	background: #ff0000;
+	background: -webkit-linear-gradient(45deg, #ff0000, #ff0000);
+	background: -moz-linear-gradient(45deg, #ff0000, #ff0000);
+	background: -o-linear-gradient(45deg, #ff0000, #ff0000);
+	background: linear-gradient(45deg, #ff0000, #ffffff);
+}
+
+.grad{
+	width:200px; height:200px;
+	margin:auto;
+	background: #06f;
+	background: -webkit-linear-gradient(top, #06f,white 30%,#06f);
+	background: -moz-linear-gradient(bottom, #06f,white 30%,#06f);
+	background: -o-linear-gradient(bottom,  #06f,white 30%,#06f);
+	background: linear-gradient(to bottom,  #06f,white 10%,#06f);
+}
+
+.grad{
+	width:400px; height:200px;
+	margin:auto;
+	background: red;
+	background: -webkit-radial-gradient(circle,white,yellow,red);
+	background: -moz-radial-gradient(circle,white,yellow,red);
+	background: -o-radial-gradient(circle,white,yellow,red);
+	background: radial-gradient(circle,white,yellow,red);
+}
+
+.grad{
+	width:400px; height:200px;
+	margin:auto;
+	background: red;
+	background: -webkit-radial-gradient(10% 10%, circle, white, blue);
+	background: -moz-radial-gradient(10% 10%, circle, white, blue);
+	background: -o-radial-gradient(10% 10%, circle, white, blue);
+	background: radial-gradient(circle at 30% 30% , white, blue);
+}
+
+.grad1{
+	width:400px; height:200px;
+	background:darkgreen;
+	background:-webkit-radial-gradient(30% 40%, circle closet-side, white,yellow,darkgreen);
+	bakcground:-moz-radial-gradient(30% 40%, circle closest-side, white,yellow,darkgreen);
+	background:-o-radial-gradient(30% 40%, circle closest-side,white,yellow,darkgreen);
+	background:radial-gradient(circle closest-side at 30% 40%, white,yellow,darkgreen);
+}
+
+.grad2{
+	width:400px; height:200px;
+	background:darkgreen;
+	background:-webkit-radial-gradient(30% 40%, circle closet-side, white,yellow,darkgreen);
+	bakcground:-moz-radial-gradient(30% 40%, circle closest-side, white,yellow,darkgreen);
+	background:-o-radial-gradient(30% 40%, circle closest-side,white,yellow,darkgreen);
+	background:radial-gradient(circle closest-corner at 30% 40%, white,yellow,darkgreen);
+}
+
+.grad3{
+	width:400px; height:200px;
+	background:darkgreen;
+	background:-webkit-radial-gradient(30% 40%, circle closet-side, white,yellow,darkgreen);
+	bakcground:-moz-radial-gradient(30% 40%, circle closest-side, white,yellow,darkgreen);
+	background:-o-radial-gradient(30% 40%, circle closest-side,white,yellow,darkgreen);
+	background:radial-gradient(circle farthest-side at 30% 40%, white,yellow,darkgreen);
+}
+
+.grad4{
+	width:400px; height:200px;
+	background:darkgreen;
+	background:-webkit-radial-gradient(30% 40%, circle closet-side, white,yellow,darkgreen);
+	bakcground:-moz-radial-gradient(30% 40%, circle closest-side, white,yellow,darkgreen);
+	background:-o-radial-gradient(30% 40%, circle closest-side,white,yellow,darkgreen);
+	background:radial-gradient(circle farthest-corner at 30% 40%, white,yellow,darkgreen);
+}
+
+#grad1{
+	width:400px; height:200px;
+	background:skyblue;
+	background:-webkit-radial-gradient(red,yellow,skyblue);
+	background:-moz-radial-gradient(red,yellow,skyblue);
+	background:-o-radial-gradient(red,yellow,skyblue);
+	background:radidal-gradient(red,yellow,skyblue);
+}
+
+#grad2{
+	width:400px; height:200px;
+	background:skyblue;
+	background:-webkit-radial-gradient(red,yellow 20%,skyblue);
+	background:-moz-radial-gradient(red,yellow 20%,skyblue);
+	background:-o-radial-gradient(red,yellow 20%,skyblue);
+	background:radidal-gradient(red,yellow 90%,skyblue);
+}
+
+#repeating{
+	width:400px; height:200px;
+	background:red;
+	background:-webkit-repeating-linear-gradient(yellow,red 20px);
+	background:-moz-repeating-linear-gradient(yellow,red 20px);
+	background:-o-repeating-linear-gradient(yellow,red 20px);
+	background:repeating-linear-gradient(yellow, red 40px);
+}
+
+#rep1{
+	width:400px;height:200px;
+	background:red;
+	background:-webkit-repeating-linear-gradient(yellow,yellow 20px,red 20px,red 20px);
+	background:-moz-repeating-linear-gradient(yellow,yellow 20px,red 20px,red 20px);
+	background:-o-repeating-linear-gradient(yellow,yellow 20px,red 20px,red 20px);
+	background:repeating-linear-gradient(yellow,yellow 20px,red 20px,red 40px);
+}
+
+#rep2{
+	width:400px;height:200px;
+	background:#ccc;
+	background:repeating-radial-gradient(circle, white, #ccc 10%);
+}
+
+#rep3{
+	width:400px; height:200px;
+	background:#ccc;
+	background:repeating-radial-gradient(circle, white, white 10px, #ccc 10px, #ccc 20px);
+}
+
+
